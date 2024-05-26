@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #f6f7f8;
+}
+
+body,
+p {
+    color: initial;
+}
+
+/* Estilos específicos para los elementos dentro del contenedor */
+.item-container .item-title,
+.item-container .item-description,
+.item-container .item-price {
+    color: black;
+    /* Ajusta el color según tus necesidades */
+    text-transform: none;
+    /* Asegura que no se transformen a mayúsculas */
+}
